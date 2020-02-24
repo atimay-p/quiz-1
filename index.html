@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Fan</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="starter">
+        <div class="col-12 header" id="header">
+            <div class="col-12" id="head">
+                Did you know about... Naruto
+            </div>
+        </div>
+
+        <div class="box" id="starterImage">
+            <img class="img" src="img/index.jfif">
+        </div>
+
+        <div class="col-12 button">
+            <button class="start" id="start">
+                START
+            </button>
+        </div>
+    </div>
+
+    <div class="quiz" id="quiz">
+        <div class="col-12 answer" style="margin-top: 0px; font-family:'Itim';">
+            อุสึมากิ นารูโตะ เป็นสถิตร่างของสัตว์หางตนใด
+        </div>
+        <div class="container " id="1">
+
+            <div class="col-3 boxChoice" id="choice1_1" onclick="score1('choice1_1')">
+
+                <img class="choice" src="img/1-1.jpg">
+            </div>
+
+            <div class="col-3 boxChoice" id="choice1_2" onclick="score1('choice1_2')">
+                <img class="choice" src="img/1-2.jpg">
+            </div>
+
+            <div class="col-3 boxChoice" id="choice1_3" onclick="score1('choice1_3')">
+                <img class="choice" src="img/1-3.png">
+            </div>
+
+        </div>
+
+        <div class="col-12 answer" style="margin-top: 5%; font-family:'Itim';">
+            อดีตสมาชิกองค์กรแสงอุษาคนใด เคยเป็นสมาชิก กลุ่ม 7 ดาบนินจา
+        </div>
+        <div class="container" id="2">
+            <div class="col-3 boxChoice" id="choice2_1" onclick="score2('choice2_1')">
+
+                <img class="choice" src="img/2-1.png">
+            </div>
+
+            <div class="col-3 boxChoice" id="choice2_2" onclick="score2('choice2_2')">
+                <img class="choice" src="img/2-2.png">
+            </div>
+
+            <div class="col-3 boxChoice" id="choice2_3" onclick="score2('choice2_3')">
+                <img class="choice" src="img/2-3.png">
+            </div>
+
+        </div>
+
+        <div class="col-12 answer" style="margin-top: 5%; font-family:'Itim';">
+             คาถาใดเป็นขีดจำกัดสายเลือดเฉพาะ(สายเลือดคัดสรร) 
+        </div>
+        <div class="container" id="3">
+            <div class="col-3 boxChoice" id="choice3_1" onclick="score3('choice3_1')">
+
+                <img class="choice" src="img/3-1.jpg">
+            </div>
+
+            <div class="col-3 boxChoice" id="choice3_2" onclick="score3('choice3_2')">
+                <img class="choice" src="img/3-2.png">
+            </div>
+
+            <div class="col-3 boxChoice" id="choice3_3" onclick="score3('choice3_3')">
+                <img class="choice" src="img/3-3.png">
+            </div>
+
+        </div>
+
+        <div class="col-12 button">
+            <button class="start" id="submit" style="margin-top: 5%; margin-bottom: 5%;">
+                SUBMIT
+            </button>
+        </div>
+    </div>
+
+    <div class="result" id="end">
+        <div class="col-12 header" id="header">
+            <div class="col-12" id="result " style="font-family:'Itim';">
+
+            </div>
+        </div>
+        <div class="box" id="resultImage">
+            <img class="img" src="img/result.jpg">
+        </div>
+        <div class="col-12 button">
+            <button class="start" id="tryagain">
+                try again
+            </button>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
