@@ -125,8 +125,8 @@ $( "#submit" ).click(function() {
     }
     $("#quiz").hide()
     $("#end").fadeIn(2000)
-
-    $("#result").text('ตะแนนของคุณคือ '+point+' / 3')
+    console.log(point)
+    $( "#resultScore" ).text('คะแนนของคุณคือ '+point+' / 3');
 });  
 
 $( "#tryagain" ).click(function() {
